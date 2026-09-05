@@ -5,10 +5,10 @@ export function WeekendSection() {
     <section className="w-full bg-brand px-6 py-14 md:px-14 md:py-16">
       <div className="flex w-full flex-col items-stretch gap-10 lg:flex-row">
         <div className="flex flex-col justify-start lg:flex-1">
-          <h2 className="font-display text-[56px] leading-[1.05] text-cream uppercase sm:text-[80px] md:text-[98px] lg:text-[112px]">
-            What&apos;s Happening
+          <h2 className="font-display text-[64px] leading-[0.95] text-cream uppercase sm:text-[92px] md:text-[116px] lg:text-[132px]">
+            This
             <br />
-            This Weekend?
+            Weekend
           </h2>
           <div className="mt-3.5 text-xs font-bold tracking-wide text-[#f3d9c8]">
             LIVE MUSIC &middot; GREAT FOOD &middot; GOOD COMPANY
