@@ -23,25 +23,15 @@ export function MeatSection() {
         </a>
       </div>
 
-      <div className="relative grid w-full grid-cols-2 md:w-[58%]">
-        <div className="relative min-h-[300px] overflow-hidden md:min-h-0">
-          <Image
-            src="/images/steak_01.jpg"
-            alt="Close-up of a peppercorn-crusted grilled steak with fresh rosemary on a wooden board."
-            fill
-            sizes="(min-width: 768px) 29vw, 100vw"
-            className="object-cover"
-          />
-        </div>
-        <div className="relative min-h-[300px] overflow-hidden md:min-h-0">
-          <Image
-            src="/images/steak_02.jpg"
-            alt="A sliced medium-rare steak on a wooden board, showing the pink centre."
-            fill
-            sizes="(min-width: 768px) 29vw, 100vw"
-            className="object-cover"
-          />
-        </div>
+      <div className="relative min-h-[300px] w-full overflow-hidden md:min-h-0 md:w-[58%]">
+        <Image
+          src="/images/steak_01.jpg"
+          alt="Close-up of a peppercorn-crusted grilled steak with fresh rosemary on a wooden board."
+          fill
+          quality={90}
+          sizes="(min-width: 768px) 58vw, 100vw"
+          className="object-cover"
+        />
       </div>
     </section>
   );

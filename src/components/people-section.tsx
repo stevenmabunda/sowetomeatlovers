@@ -47,6 +47,7 @@ export function PeopleSection() {
               src={photo.src}
               alt={photo.alt}
               fill
+              quality={90}
               sizes="(min-width: 768px) 19vw, 33vw"
               className="object-cover object-top"
             />

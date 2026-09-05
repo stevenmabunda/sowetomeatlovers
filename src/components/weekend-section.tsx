@@ -31,6 +31,7 @@ export function WeekendSection() {
               src="/images/real_poster_hero2.jpeg"
               alt="Soweto Meat Lovers presents the All White Experience with Vusi Nova and Mduduzi Ncube, hosted by Bujy, featuring DJ Grant. 06 September. Early bird R50, second phase R150, first phase R100, at the gate R200. Tickets at Computicket and Webtickets Pick n Pay. 23031 Kei Street, Protea Glen Ext 26. Food and drinks sold at the venue. 18+."
               fill
+              quality={95}
               sizes="(min-width: 1024px) 58vw, 100vw"
               className="object-cover"
             />

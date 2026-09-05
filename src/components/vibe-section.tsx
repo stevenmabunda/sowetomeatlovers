@@ -27,17 +27,10 @@ export function VibeSection() {
           src="/images/vibe_01.jpg"
           alt="A woman cheering with her fist raised among a crowd on the patio, the Soweto Meat Lovers signage lit up behind."
           fill
+          quality={90}
           sizes="(min-width: 768px) 58vw, 100vw"
           className="object-cover object-[62%_35%]"
         />
-        <div className="absolute inset-0 bg-linear-to-t from-black/55 via-transparent to-transparent" />
-        <div className="font-script absolute right-11 bottom-9 text-right text-[32px] leading-[1.15] text-cream drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]">
-          Good Food
-          <br />
-          Good People
-          <br />
-          Great Vibes
-        </div>
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ export function HeroSection() {
           alt="Friends laughing over drinks and a grilled meat platter on the patio at Soweto Meat Lovers, with the venue's wooden signage and a live band behind them."
           fill
           priority
+          quality={90}
           sizes="100vw"
           className="object-cover"
         />
@@ -23,31 +24,20 @@ export function HeroSection() {
             <br />
             Meet
           </h1>
-          <div className="mt-5 text-[15px] font-bold tracking-wide text-cream">
-            SOWETO MEAT LOVERS
-          </div>
-          <div className="mt-1 text-[11px] font-semibold tracking-[0.2em] text-cream-dim">
-            FOOD &middot; MUSIC &middot; PEOPLE &middot; GOOD TIMES
-          </div>
-          <div className="mt-7 flex flex-wrap gap-3">
+          <div className="mt-6 flex gap-2 sm:gap-3">
             <a
               href="#book"
-              className="inline-flex items-center bg-brand px-7 py-4 text-[13px] font-extrabold tracking-wide text-cream uppercase hover:bg-brand-dark"
+              className="inline-flex items-center bg-brand px-4 py-3 text-[11px] font-extrabold tracking-wide text-cream uppercase sm:px-7 sm:py-4 sm:text-[13px]"
             >
               Book a Table
             </a>
             <a
               href="#venue"
-              className="inline-flex items-center border-[1.5px] border-cream px-7 py-4 text-[13px] font-extrabold tracking-wide text-cream uppercase hover:bg-cream hover:text-ink"
+              className="inline-flex items-center border-[1.5px] border-cream px-4 py-3 text-[11px] font-extrabold tracking-wide text-cream uppercase sm:px-7 sm:py-4 sm:text-[13px]"
             >
               Book a Venue
             </a>
           </div>
-        </div>
-
-        <div className="font-script absolute right-6 bottom-8 text-right text-3xl leading-none text-cream drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)] sm:right-10 sm:text-4xl md:right-14">
-          More Than
-          <br />a Meal
         </div>
       </div>
     </section>
