@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BuyTicketsButton } from "./buy-tickets-button";
 
 export function WeekendSection() {
   return (
@@ -13,19 +14,18 @@ export function WeekendSection() {
           <div className="mt-3.5 text-xs font-bold tracking-wide text-[#f3d9c8]">
             LIVE MUSIC &middot; GREAT FOOD &middot; GOOD COMPANY
           </div>
-          <a
-            href="#events"
-            className="mt-6.5 inline-flex w-fit items-center border-[1.5px] border-cream px-6.5 py-3.5 text-[13px] font-extrabold tracking-wide text-cream uppercase hover:bg-cream hover:text-brand"
-          >
-            View All Events &rarr;
-          </a>
+          <div className="mt-6.5 flex flex-wrap gap-3">
+            <a
+              href="#events"
+              className="inline-flex w-fit items-center border-[1.5px] border-cream px-6.5 py-3.5 text-[13px] font-extrabold tracking-wide text-cream uppercase hover:bg-cream hover:text-brand"
+            >
+              View All Events &rarr;
+            </a>
+            <BuyTicketsButton className="inline-flex w-fit items-center bg-cream px-6.5 py-3.5 text-[13px] font-extrabold tracking-wide text-brand uppercase hover:bg-ink hover:text-cream" />
+          </div>
         </div>
 
-        <a
-          href="#tickets"
-          aria-label="Get tickets for the All White Experience with Vusi Nova and Mduduzi Ncube"
-          className="relative block w-full overflow-hidden shadow-[0_18px_40px_rgba(0,0,0,0.35)] lg:flex-[1.5]"
-        >
+        <div className="relative block w-full overflow-hidden shadow-[0_18px_40px_rgba(0,0,0,0.35)] lg:flex-[1.5]">
           <div className="relative aspect-[1983/793] w-full">
             <Image
               src="/images/real_poster_hero2.jpeg"
@@ -36,7 +36,7 @@ export function WeekendSection() {
               className="object-cover"
             />
           </div>
-        </a>
+        </div>
       </div>
     </section>
   );

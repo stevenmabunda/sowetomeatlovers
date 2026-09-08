@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BookVenueButton } from "./book-venue-button";
 
 export function HeroSection() {
   return (
@@ -31,12 +32,7 @@ export function HeroSection() {
             >
               Book a Table
             </a>
-            <a
-              href="#venue"
-              className="inline-flex items-center border-[1.5px] border-cream px-4 py-3 text-[11px] font-extrabold tracking-wide text-cream uppercase sm:px-7 sm:py-4 sm:text-[13px]"
-            >
-              Book a Venue
-            </a>
+            <BookVenueButton className="inline-flex items-center border-[1.5px] border-cream px-4 py-3 text-[11px] font-extrabold tracking-wide text-cream uppercase sm:px-7 sm:py-4 sm:text-[13px]" />
           </div>
         </div>
       </div>
